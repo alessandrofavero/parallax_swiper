@@ -43,66 +43,69 @@ ParallaxSwiper(
 )
 ```
 
-`backgroundWidget` - `Widget`
+`backgroundWidget` - `Widget`  
 The widget to be displayed in the background.
 
-`foregroundWidgets` - `List<Widget>`
+`foregroundWidgets` - `List<Widget>`  
 A list of widgets to be displayed in the foreground and be swiped.
 
-`alignment` - `Alignment`
+`alignment` - `Alignment`  
 The alignment in the widget stack, default `Alignment.center`.
 
-`returnDuration` - `Duration`
+`returnDuration` - `Duration`  
 The amount of time for the widget to return to the center position after a drag ends.
 
-`returnCurve` - `Curve`
+`returnCurve` - `Curve`  
 The curve for the return animation after a drag ends.
 
-`backgroundRotationFactor` - `double`
+`backgroundRotationFactor` - `double`  
+The amount of rotation for the background.
 
-`foregroundRotationFactor` - `double`
+`foregroundRotationFactor` - `double`  
+The amount of rotation for the foreground.
 
-`foregroundTranslationFactor` - `double`
+`foregroundTranslationFactor` - `double`  
+The amount of translation for the foreground.
 
-`swiperHeight` - `double`
+`swiperHeight` - `double`  
 The height of the foreground swiper.
 
-`swiperInitialPage` - `int`
+`swiperInitialPage` - `int`  
 The initial page/item to be shown by the swiper.
 
-`swiperInfiniteSwipe` - `bool`
+`swiperInfiniteSwipe` - `bool`  
 Set the swipe to be infinite or limited to the amount of items in the foregroundWidgets list.
 
-`swipeDirection` - `Axis`
+`swipeDirection` - `Axis`  
 The direction of the swipe.
 
-`swiperDuration` - `Duration`
+`swiperDuration` - `Duration`  
 The duration of the animation of the swipe.
 
-`swiperCurve` - `Curve`
+`swiperCurve` - `Curve`  
 The curve of the animation of the swipe
 
-`onItemChanged` - `Function`
+`onItemChanged` - `Function`  
 Callback function for when an item changed in the swiper.
 
-`onTap` - `Function`
+`onTap` - `Function`  
 Callback function after a tap on the widget.
 
-`onDoubleTap` - `Function`
+`onDoubleTap` - `Function`  
 Callback function after a double tap on the widget.
 
-`onLongPress` - `Function`
+`onLongPress` - `Function`  
 Callback function after a long press on the widget.
 
 
 ## Example
-Horizontal swipe
+Horizontal swipe  
 ![horizontal_swipe.gif](example/horizontal_swipe.gif)
 
-Vertical swipe
+Vertical swipe  
 ![vertical_swipe.gif](example/vertical_swipe.gif)
 
 ### Credits
-Example images source: [Super Mario Wiki](https://www.mariowiki.com/)
+Example images source: [Super Mario Wiki](https://www.mariowiki.com/)  
 Example font: [Super Mario 256 by fsuarez913](https://www.dafont.com/super-mario-256.font)
 
