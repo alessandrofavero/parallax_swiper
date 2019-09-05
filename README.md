@@ -44,8 +44,8 @@ ParallaxSwiper(
 ```
 
 ## Example
-![swipe_horizontal.gif](example/swipe_horizontal.gif | width = 200)
+![horizontal_swipe.gif](example/horizontal_swipe.gif)
 
-![swipe_vertical.gif](example/swipe_vertical.gif | width = 200)
+![vertical_swipe.gif](example/vertical_swipe.gif)
 
 
