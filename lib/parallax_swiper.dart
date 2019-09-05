@@ -12,7 +12,7 @@ class ParallaxSwiper extends StatefulWidget {
     this.alignment = Alignment.center,
     this.returnDuration = const Duration(milliseconds: 500),
     this.returnCurve = Curves.easeOut,
-    this.backgroundRoationFactor = 0.001,
+    this.backgroundRotationFactor = 0.001,
     this.foregroundRotationFactor = 0.001,
     this.foregroundTranslationFactor = 0.2,
     this.swiperHeight,
@@ -47,7 +47,7 @@ class ParallaxSwiper extends StatefulWidget {
 
   /// The background rotation factor
   /// Default value 0.001
-  final double backgroundRoationFactor;
+  final double backgroundRotationFactor;
 
   /// The foreground rotation factor
   /// Default value 0.001
@@ -150,8 +150,8 @@ class _ParallaxSwiperState extends State<ParallaxSwiper>
     var _background = Transform(
       transform: Matrix4.identity()
         ..setEntry(3, 2, 0.001)
-        ..rotateX(widget.backgroundRoationFactor * _offset.dy)
-        ..rotateY(-widget.backgroundRoationFactor * _offset.dx),
+        ..rotateX(widget.backgroundRotationFactor * _offset.dy)
+        ..rotateY(-widget.backgroundRotationFactor * _offset.dx),
       alignment: FractionalOffset.center,
       child: widget.backgroundWidget,
     );
