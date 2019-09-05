@@ -1,7 +1,7 @@
 name: parallax_swiper
 description: A swiper with a parallax effect, support infinite scroll in both directions.
 version: 0.0.1
-author: Alessandro Favero 
+author: Alessandro Favero <alemalm19@gmail.com>
 homepage: https://github.com/alessandrofavero/parallax_swiper
 
 environment:
